@@ -1,0 +1,149 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner c">
+        <div class="carousel-item active w3-animate-right" data-interval="5000">
+            <img src="~/Images/Banner3 (1).jpg" />
+
+        </div>
+        <div class="carousel-item" data-interval="5000">
+            <img src="~/Images/Banner1 (1).jpg" />
+
+            
+        </div>
+        <div class="carousel-item" data-interval="5000">
+            <img src="~/Images/b1.png" />
+            
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+
+        <div class="col-md-9">
+            <div class="row">
+                @for (var i = 0; i < 3; i++)
+                {
+                    <div class="col-md-3 card-col">
+                        <div class="card" style="width:251.5px;">
+                            <img src="~/Images/set-meal-1.png" />
+                            <div class="card-body">
+                                <h6 class="card-title">
+                                    <a href="#">
+                                        Set Meal for @(i+1), (No discount)
+                                    </a>
+                                </h6>
+                                <div class="info">
+                                    <p>$17.99</p>
+                                    <a href="#" class="btn">Add to Cart</a>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+            
+            
+            
+                <div class="row">
+                    @for (var i = 0; i < 28; i++)
+                    {
+                        <div class="col-md-2 card-col">
+                            <div class="card small-card" style="width:150px">
+                                <img src="~/Images/starters.png" />
+
+                                <div class="card-body">
+                                    <h6 class="card-title">
+                                        <a href="#">
+                                            Startars @(i + 1)
+                                        </a>
+                                    </h6>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+
+                </div>
+            
+
+        </div>
+        <div class="col-md-3">
+            <div class="ri">
+                <img src="~/Images/drinks.png" />
+
+            </div>
+            <div class="card sec" style="width: 18rem;">
+                <div class="card-body">
+                    <h2 class="card-title">Delivary Area</h2>
+                    <p class="card-text">Free Home delivery 5pm to 10:30pm on order over £15.00 within 5 Mile radious.</p>
+
+                </div>
+            </div>
+
+            <div class="card sec" style="width: 18rem;">
+                <div class="card-body">
+                    <h2 class="card-title">Get 10% OFF</h2>
+                    <p class="card-text">10% discount on order over £50 (Cash & Collection Only)</p>
+
+                </div>
+            </div>
+
+            <div class="card contact-th" style="width:18rem">
+                <p style="letter-spacing:0.5em;">Contact Info</p>
+                <div style="line-height:10px">
+                    <p>Phone:</p>
+                    <p style="color:grey">01939796379, 01733845278</p>
+                </div>
+
+                <div style="line-height:10px">
+                    <p>Email:</p>
+                    <p style="color:grey">hhasib181@gmail.com</p>
+                </div>
+                <div style="line-height:10px">
+                    <p>Address:</p>
+                    <p style="color: grey; line-height: 22px">
+                        SPICE HOUSE
+                        440 New Hythe Lane, Larkfield, Atlesford, Kent, ME20 6SA
+                        UNITED KINDOM
+                    </p>
+                    
+                </div>
+            </div>
+            
+        </div>
+
+
+
+        
+
+        
+
+        
+    </div>
+</div>
+
+<div class="container-fluid">
+    
+</div>

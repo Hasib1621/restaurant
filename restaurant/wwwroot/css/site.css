@@ -1,0 +1,197 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+
+.menu{
+    margin: 10px;
+    background-color:rgb(128 128 128 / 0.33);
+    border: 4px solid crimson;
+    
+}
+
+.contact{
+    float: right;
+    margin-right: 20px
+    
+}
+
+.menu-right > a {
+    margin-right: 30px;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+    border-radius: 15px 50px 30px;
+}
+
+.cart{
+    font-weight:600;
+    padding: 5px;
+    background-color: rgb(231 255 59);
+    border-radius: 50% 50%;
+    
+}
+
+.menu-right > a:hover {
+    color: aquamarine;
+    text-decoration: none;
+    background-color: grey;
+    transition: background-color linear 1s, color linear 0.5s;        
+}
+
+.nav-custom{
+    background-color:black;
+    font-size: 1.2em;
+    font-weight:400;
+    
+}
+
+.custom > li > a{
+    padding: 10px;
+    margin-left: 60px;
+    color: wheat
+}
+
+    .custom > li > a:hover {
+        color: black;
+        text-decoration: none;
+        background-color: wheat;
+        transition: background-color linear 0.5s, color linear 0.5s;
+        border-radius: 10px;
+    }
+
+    .start {
+        margin-left: -80px;
+    }
+
+
+
+.c > div > img{
+    width:100%;
+    height:400px;
+    
+ }
+
+.card-col{
+    margin-top:20px;
+    margin-left: 20px;
+}
+
+.card-title > a{
+    color: black
+} 
+
+.card-body > .info{
+    display:flex;
+}
+
+.card-body > .info > .btn{
+  margin-left: 50px;
+  background-color: black;
+  color: white;
+}
+
+    .card-body > .info > .btn:hover {
+        background-color: #50DBB4;
+        border: 2px solid black;
+        color: black;
+        transition: background-color linear 0.5s, color linear 0.5s;
+    }
+
+
+    .small-card{
+        margin-left:10px;
+        margin-right: 10px;
+    }
+
+    .ri {
+        margin-right:10px;
+        margin-top:20px
+        
+    }
+
+    .ri > img{
+        width:285px
+        
+    }
+
+    .sec{
+        margin-top:20px;
+        background-color:aquamarine;
+    }
+
+.contact-th {
+    margin-top: 20px;
+    background-color: #483a32;
+    color:white;
+    padding-left:20px;
+    padding-top:20px
+}
