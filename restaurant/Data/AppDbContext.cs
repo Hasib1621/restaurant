@@ -8,7 +8,8 @@ using restaurant.Models;
 
 namespace restaurant.Data
 {
-    public class AppDbContext :DbContext
+
+    public class AppDbContext : IdentityDbContext<User, Role, int>
     {
         
         public AppDbContext(DbContextOptions<AppDbContext> options)
@@ -17,18 +18,17 @@ namespace restaurant.Data
 
         }
 
-        DbSet<Adress> Adresses;
-        DbSet<Cart> Carts;
-        DbSet<CartItem> CartItems;
-        DbSet<Category> Categories;
-        DbSet<Item> Items;
-        DbSet<ItemType> ItemTypes;
-        DbSet<Order> Orders;
-        DbSet<OrderItem> OrderItems;
-        DbSet<Payment> Payments;
-        DbSet<Role> Roles;
-        DbSet<User> Users;
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Item> Items { get; set; }
+        public DbSet<ItemType> ItemTypes { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderItem> OrderItems { get; set; }
+        public DbSet<Cart> Carts { get; set; }
+        public DbSet<CartItem> CartItems { get; set; }
+        public DbSet<Adress> Address { get; set; }
+        public DbSet<Payment> PaymentDetails { get; set; }
 
-            
+
+
     }
 }

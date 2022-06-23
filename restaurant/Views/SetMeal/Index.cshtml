@@ -1,0 +1,141 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="online-menu-img">
+    <img src="~/Images/Banner1 (1).jpg" />
+</div>
+
+<h1 class="online-menu-header">Order Online</h1>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3 online-menu-left">
+            <p>Our Menu</p>
+            <ul>
+                <li><a href="#">Starters</a></li>
+                <li><a href="#">Tandoori Dishes</a></li>
+                <li>
+                    <a href="#">Shashlik Dishes</a>
+                </li>
+                <li> <a href="#"> House Specials </a> </li>
+                <li> <a href="#"> Chef's Special </a> </li>
+                <li><a href="#"> Masala Dishes</a> </li>
+                <li><a href="#"> Chilli Masala Dishes </a></li>
+                <li><a href="#">Korma Dishes</a> </li>
+                <li><a href="#">Kashmiri Dishes </a></li>
+                <li><a href="#">Malaya Dishes </a></li>
+                <li><a href="#">Curry Dishes </a></li>
+
+            </ul>
+        </div>
+        <div class="col-md-5 online-menu-center">
+            <div class="card card-main">
+
+                Set Meals
+            </div>
+
+            <div class="main">
+                @for (var i = 0; i < 3; i++)
+                {
+                    <div class="card shadow-lg card-item">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-9 card-item-header">
+                                    <h4>Set Meal for @(i+1)</h4>
+                                    <p>
+                                        1 poppadom, 1 any starter, 1 any main dish, 1 any side dish, any 1 rice, any 1 naan bread choice from the menu
+                                        £3 extra for king prawn and Salmon
+                                    </p>
+                                </div>
+                                <div class="col-md-3 card-item-info">
+                                    <p>$17.50</p>
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                                        </svg> ADD
+
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+
+            </div>
+        </div>
+        <div class="col-md-3 online-menu-right">
+            <div class="card online-menu-right-type">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                            </svg> Your Selections
+                        </div>
+                        <div class="col-md-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">
+                                <path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5ZM11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H2.506a.58.58 0 0 0-.01 0H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1h-.995a.59.59 0 0 0-.01 0H11Zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5h9.916Zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47ZM8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5Z" />
+                            </svg> $0
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7">
+                            <input type="radio" id="delivery" name="type" value="Delivery">
+                            <label for="delivery">Delivery</label>
+
+                        </div>
+                        <div class="col-md-5">
+                            <input type="radio" id="collection" name="type" value="Collection">
+                            <label for="collection">Collection</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ri">
+                <img src="~/Images/drinks.png" />
+
+            </div>
+            <div class="card sec" style="width: 18rem;">
+                <div class="card-body">
+                    <h2 class="card-title">Delivary Area</h2>
+                    <p class="card-text">Free Home delivery 5pm to 10:30pm on order over £15.00 within 5 Mile radious.</p>
+
+                </div>
+            </div>
+
+            <div class="card sec" style="width: 18rem;">
+                <div class="card-body">
+                    <h2 class="card-title">Get 10% OFF</h2>
+                    <p class="card-text">10% discount on order over £50 (Cash & Collection Only)</p>
+
+                </div>
+            </div>
+
+            <div class="card contact-th" style="width:18rem">
+                <p style="letter-spacing:0.5em;">Contact Info</p>
+                <div style="line-height:10px">
+                    <p>Phone:</p>
+                    <p style="color:grey">01939796379, 01733845278</p>
+                </div>
+
+                <div style="line-height:10px">
+                    <p>Email:</p>
+                    <p style="color:grey">hhasib181@gmail.com</p>
+                </div>
+                <div style="line-height:10px">
+                    <p>Address:</p>
+                    <p style="color: grey; line-height: 22px">
+                        SPICE HOUSE
+                        440 New Hythe Lane, Larkfield, Atlesford, Kent, ME20 6SA
+                        UNITED KINDOM
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+

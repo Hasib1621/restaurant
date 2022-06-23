@@ -143,7 +143,9 @@ body {
 .card-col{
     margin-top:20px;
     margin-left: 20px;
+    
 }
+
 
 .card-title > a{
     color: black
@@ -195,3 +197,232 @@ body {
     padding-left:20px;
     padding-top:20px
 }
+
+/* Online Menu */
+
+.online-menu-img, .online-menu-img > img{
+    height:400px;
+    width: 100%
+}
+
+.online-menu-header{
+    text-align: center;
+    background-color: black;
+    color:white;
+    height: 70px;
+    padding:10px;
+    text-transform:uppercase;
+    letter-spacing: 10px;
+    
+}
+
+.online-menu-left{
+    text-align:center;
+    color: white;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.online-menu-left > p{
+    background-color: palegreen;
+    color: black;
+    padding: 20px 0;
+    font-weight:800;
+    margin-bottom:0;
+    letter-spacing:10px;
+    text-transform:uppercase;
+}
+
+    .online-menu-left > ul {
+        list-style-type: none;
+        background-color: black;
+        margin: 0;
+        padding : 0
+    }
+
+.online-menu-left > ul > li{
+    border-bottom: 2px solid white;
+    padding: 10px 0;
+}
+
+.online-menu-left > ul > li > a {
+color: white;
+}
+
+.online-menu-left > ul > li > a:hover {
+    color: black;
+    background-color: wheat;
+    text-decoration: none;
+    transition: background-color linear 0.5s, color linear 0.5s;
+    font-size:large;
+}
+
+.online-menu-center{
+    margin-top: 20px;
+}
+
+.online-menu-center > .card-main{
+    padding:20px;
+    background-color:wheat;
+    font-weight: 800;
+    font-size:24px;
+    letter-spacing:8px;
+}
+
+.online-menu-center > .main{
+    margin: 20px 0;
+    
+    border: 3px solid grey;
+}
+
+.online-menu-center > .main > .card-item{
+    margin:10px;
+    padding:20px;
+}
+
+.online-menu-right{
+    margin-left:50px;
+    
+}
+
+.online-menu-right-type {
+    margin-top: 20px;
+    padding: 5px 0;
+    line-height: 3em;
+    color: wheat;
+    background-color: black
+}
+
+.card-item-info > p{
+    font-weight:bold;
+    float:right
+}
+
+.card-item-info > a{
+    float:right;
+    background-color: black;
+    color:white;
+    padding:5px;
+    font-size:small
+}
+
+    .card-item-info > a:hover {
+        text-decoration: none;
+        border: 2px solid maroon;
+        color: black;
+        background-color: aquamarine;
+        transition: background-color linear 0.5s, color linear 0.5s;
+    }
+
+
+.card-item-header > h4{
+    color:red;
+}
+
+
+.contact-header{
+    margin-top:100px;
+}
+
+.heading, .heading > pre {
+    background-color: black;
+    color: white
+}
+
+/*form*/
+
+.contact-form {
+    
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align:center;
+    margin-left:50px;
+    align-content:center
+}
+
+.form-div{
+    background-color:black
+}
+
+    .contact-form .form-control {
+        border-radius: 20px;
+    }
+
+.contact-image {
+    text-align: center;
+}
+
+    .contact-image img {
+        width: 100px;
+        margin-top: 20px
+    }
+
+.contact-form form {
+    padding: 14%;
+}
+
+    .contact-form form .row {
+        margin-bottom: 10px;
+    }
+
+.contact-form h3 {
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #0062cc;
+}
+
+.contact-form .btnContact {
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btnContactSubmit {
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+/* SignUp */
+
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+}
+
+.card-registration .select-arrow {
+    top: 13px;
+}
+
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #a1c4fd;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(161, 196, 253, 1), rgba(194, 233, 251, 1));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(161, 196, 253, 1), rgba(194, 233, 251, 1))
+}
+
+.bg-indigo {
+    background-color: #4835d4;
+}
+
+
+
+
+/* SignIn */
+

@@ -1,0 +1,205 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+
+.wrapper {
+    display: flex;
+    width: 100%;
+
+    align-items:stretch;
+}
+
+.sidebar {
+    width: 200px;
+    margin-left:0px;
+    height:100vh;
+    background: black;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.disable{
+    margin-left:-200px
+}
+
+.content{
+    width:100%
+}
+
+#hamburger{
+    color:white;
+}
+
+#hamburger :hover {
+    background-color: azure;
+    color: black;
+    border: 2px solid black;
+    transition: background-color linear 1s, color linear 0.5s;
+        
+}
+
+
+.sidebar-ul{
+    
+    margin-top: 50px;
+}
+
+.sidebar-ul > li{
+    padding-left:20px;
+    text-decoration:none;
+    border-bottom: 2px solid white;
+
+}
+
+.sidebar-ul > li > a{
+    color:white;
+}
+
+.sidebar-ul > li:hover {
+    color: black;
+    background-color: wheat;
+    text-decoration: none;
+    transition: background-color linear 0.5s, color linear 0.5s;
+    font-size: large;
+}
+
+.more-info{
+    text-align:center
+}
+
+.more-info > a{
+    color:white
+}
+
+.new-order{
+    background-color:aqua;
+    color:white
+
+}
+
+.pending-order {
+    background-color: orange;
+    color: white
+}
+
+.deliver-order{
+    background-color:green;
+    color:white
+}
+
+.reserve-order {
+    background-color: red;
+    color: white
+}
+
+.body{
+    margin-left:10px
+}
+
+.row{
+    margin-top:30px
+}
+
+.main{
+    display: flex;
+}
+
+.icon{
+    
+    position:absolute;
+    right:5px;
+    top: 10px;
+    color:grey;
+    opacity: 0.6
+}
+
+
+.category{
+    margin-left: 20px;
+    margin-top:20px;
+}
+
+.create{
+    margin-top:20px;
+    background:black;
+    padding:10px;
+    color:white;
+    border: 2px solid black
+}
+
+    .create:hover {
+        color: black;
+        background-color: wheat;
+        text-decoration: none;
+        transition: background-color linear 0.5s, color linear 0.5s;
+        font-size: large;
+    }
